@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": 1,
+        "descricao": "arroz",
+        "marca": "ABC",
+        "valor": 10.33
+    },
+    {
+        "codigo": 2,
+        "descricao": "feijão",
+        "marca": "XYZ",
+        "valor": 5.20
+    },
+    {
+        "codigo": 3,
+        "descricao": "farinha",
+        "marca": "VFT",
+        "valor": 2.49
+    }   
+]
