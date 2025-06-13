@@ -26,8 +26,8 @@ export class ProdutoController {
     return 'Produto incluído com sucesso';
   }
 
-  // Consultar pelo código - GET /cliente?codigo=1
-  @Get('cliente')
+  // Consultar pelo código - GET /produto?codigo=1
+  @Get('produto')
   buscarPorCodigo(@Query('codigo') codigo: string): Produto | string {
     const codNum = Number(codigo);
     const produto = this.repositorio.buscarPorCodigo(codNum);
